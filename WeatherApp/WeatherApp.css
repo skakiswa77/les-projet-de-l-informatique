@@ -1,0 +1,47 @@
+h1 {
+    color: white;
+}
+
+h5 {
+    color: white;
+
+}
+
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2020/07/04/06/40/clouds-5368435_1280.jpg');
+    background-size: cover;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+input {
+    padding: 1rem;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(229, 238, 238);
+    font-family: inherit;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    min-width: 300px;
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+.Météo {
+    text-align: center;
+    font-size: 2rem; 
+    color: white;
+}
+
+.Météo h2 {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
